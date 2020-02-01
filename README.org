@@ -1,0 +1,23 @@
+* Typesafe SLI/SLO/Error budget description language
+
+Compile your SLIs, SLOs, and error budgets along side your application code in source
+control such that you can generate the monitoring configuration for your preferred
+management backend (e.g. Terraform) and produce various documentation artifacts for
+non-engineers to understand the current state of affairs.
+
+** Status
+
+This is merely a germ of an idea that I had 2020-Feb-01.
+
+** Outline
+
+Possibilities:
+- use Purescript with the Go backend
+- target Terraform's many monitoring providers as the /reference/ implementation and allow for other backends to extend funtionality
+- leverage datatype generic programming methods to build a type-level "language"
+
+** Goals
+
+Provide a different example to HTTP APIs for datatype generic programming methods and scratch an /ops/ itch I currently have at the same time.
+
+
