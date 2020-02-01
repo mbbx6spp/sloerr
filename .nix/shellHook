@@ -1,0 +1,3 @@
+export ACKRC=".ackrc"
+export NIX_PATH="nixpkgs=$NIXPKGS_HOME"
+
