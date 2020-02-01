@@ -18,6 +18,21 @@ Possibilities:
 
 ** Goals
 
-Provide a different example to HTTP APIs for datatype generic programming methods and scratch an /ops/ itch I currently have at the same time.
+Provide a different example to HTTP APIs for datatype generic programming methods and scratch an /operational/ itch I currently have at the same time.
+
+Operational itch problems with our current method:
+- docs shared with Product become out of date with reality of what is being tracked for error budgeting purposes
+- when product suggests changes on the SLI/SLO/error budget, manual config effort required for updating monitoring
+
+Ideally we just want one source of truth to generate monitoring artifacts and documentation from such that is resembles what is current.
+
+** Getting Started
+
+We use Nix 2.3+ to manage development dependencies.
+
+If you want to use something else you need:
+- yarn 0.17+
+- Purescript 0.13.6
+- Go 1.12.9
 
 
